@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Sergeant
+
+// Name
+Vitori
+
+// Bio
+Sergeant Mickey "Fish" Vitori^^AGE: 21   HEIGHT: 5'9"    WT: 151 lbs.^MOS: 11BP (Airborne Infantryman)^PT SCORE: 368^Home: Passaic, N.J.^^MILITARY SERVICE: Already served a full year with 101st Airborne Division as a Long Range Recon Patrol (LRRP) leader in an Airborne-Ranger Company.  Extended his tour for six months and volunteered for SOG Recon.  Has run one mission with RT New Mexico.^^AWARDS: Bronze Star for Valor, Purple Heart.^^WEAPONS QUALIFICATIONS:^M-16: Expert^.45 Cal. Pistol: Sharpshooter^^BACKGROUND: Although raised in an urban area, he's proved adept at jungle warfare.  Played semi-pro baseball one summer in New Jersey, enabling him to throw hand grenades with incredible accuracy.  He's the only man in Recon Company that's not Special Forces qualified.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us17
+
+// Default loadout (must be 5 items)
+M16
+1911A1 .45
+Frag Grenades
+Frag Grenades
+First Aid Kit
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.56 // Blade skill
+.68 // Sidearm skill
+.72 // Small arms skill (Riflery)
+.53 // Machinegun skill
+.76 // Grenade skill
+.45 // Explosive skill
+.42 // Field craft skill (sniping)
+.56 // Toughness skill
+.58 // Infiltration skill
+.41 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+3   // Voice index, from 1 to the number of AVoices in /Sound

@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Specialist
+
+// Name
+Owens
+
+// Bio
+Specialist Four Billy "BO" Owens^^AGE: 19    HEIGHT: 5'10"   WT: 149 lbs.^MOS: 05B4S (Special Forces Communications)^PT SCORE: 355^Home: Paducah, Illinois^^MILITARY SERVICE: Enlisted to be an Airborne Infantryman, and then volunteered for Special Forces while assigned to the 82nd Airborne Division at Ft. Bragg.^^AWARDS: Soldiers Medal for saving a drowning soldier at Ft. Bragg.^^WEAPONS QUALIFICATIONS:^M-16: Expert^.45 Cal. Pistol: Expert^^BACKGROUND: Young, fresh to the Army, he just graduated from training at Ft. Bragg and volunteered for Vietnam duty.  Very smart, very courageous, but a bit too enthusiastic for his own good.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us16
+
+// Default loadout (must be 5 items)
+M16
+1911A1 .45
+Frag Grenades
+First Aid Kit
+Air Strike Radio
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.57 // Blade skill
+.72 // Sidearm skill
+.74 // Small arms skill (Riflery)
+.64 // Machinegun skill
+.57 // Grenade skill
+.36 // Explosive skill
+.62 // Field craft skill (sniping)
+.54 // Toughness skill
+.63 // Infiltration skill
+.31 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+3   // Voice index, from 1 to the number of AVoices in /Sound

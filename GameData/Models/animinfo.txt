@@ -1,0 +1,136 @@
+// non-alert full-body animations, these are specific per weapon and are also in amb_anims
+idl_
+walk_
+
+// these are non-alert full-body ambient animations, should be in Ambient only
+// there is also an A-run in amb_anims that is a full-body run
+use_
+cower_
+
+// these are the full-body swimming animations (should be in lowerbody)
+wade_
+swim_
+Swim_die_
+
+// fatigue animations, they are full-body and only in Ambient dir
+fatigue_
+
+// pull lever/use switch anim (for alarms), only in Ambient
+Pulllever_
+
+// alerted anims, these are full body and should be in lower body (withe overrides for single handed weapons)
+Startled_,
+Look-Fast_,
+Zero-In_,
+
+// alert upper body animations (these should be different per weapon)
+S-idl_forward_
+S-idl_up_
+S-idl_down_
+S-atk_forward_
+S-atk_up_
+S-atk_down_
+S-reload_
+
+// secondary action animations, only necessary for some animation sets, S- should be just upper body
+S-atk_secondary_
+L-atk_secondary_
+
+// standing alert leg animations (these should be in lowerbody)
+S-idl_LB_
+S-walk_LB_
+S-run_LB_
+S-walkback_
+S-walk_L_
+S-walk_R_
+S-run_L_
+S-run_R_
+S-turn_L_
+S-turn_R_
+Stand-crouch_
+
+// standing full body alert animations (lowerbody unless overrided for special weapons)
+S-idl_
+S-walk_
+S-run_
+
+// this is the stand to lay animation, probably has to be different per weapon
+Stand-Lay_
+
+// crouching alert leg animations (these should be in lowerbody)
+C-idl_LB_
+C-walk_LB_
+C-run_LB_
+C-walkback_
+C-walk_L_
+C-walk_R_
+C-run_L_
+C-run_R_
+C-turn_L_
+C-turn_R_
+Crouch-Stand_
+
+// crouch fully body alert animations (lowerbody unless overrided for special weapons)
+C-idl_
+C-walk_
+C-run_
+
+// this is the crouch to lay animation, probably has to be different per weapon
+Crouch-Lay_
+
+// laying alert animations (all of these are whole-body and need to be different per weapon)
+L-idl_
+L-walk_
+L-run_
+L-walkback_
+L-walk_L_
+L-walk_R_
+L-run_L_
+L-run_R_
+L-turn_L_
+L-turn_R_
+L-Atk_
+L-reload_
+Lay-Stand_
+Lay-Crouch_
+
+// pain animations (all of these are whole body and should be in lowerbody/pains)
+pains/A-pain_chest_
+pains/C-pain_chest_
+pains/L-pain_chest_
+pains/A-pain_larm_
+pains/C-pain_larm_
+pains/L-pain_larm_
+pains/A-pain_rarm_
+pains/C-pain_rarm_
+pains/L-pain_rarm_
+pains/A-pain_lleg_
+pains/C-pain_lleg_
+pains/L-pain_lleg_
+pains/A-pain_rleg_
+pains/C-pain_rleg_
+pains/L-pain_rleg_
+pains/A-pain_head_
+pains/C-pain_head_
+pains/L-pain_head_
+
+// death animations (all of these are whole body and should be in lowerbody/deaths)
+deaths/A-death_chest_
+deaths/C-death_chest_
+deaths/L-death_chest_
+deaths/A-death_larm_
+deaths/C-death_larm_
+deaths/L-death_larm_
+deaths/A-death_rarm_
+deaths/C-death_rarm_
+deaths/L-death_rarm_
+deaths/A-death_lleg_
+deaths/C-death_lleg_
+deaths/L-death_lleg_
+deaths/A-death_rleg_
+deaths/C-death_rleg_
+deaths/L-death_rleg_
+deaths/A-death_head_
+deaths/C-death_head_
+deaths/L-death_head_
+deaths/A-death_dance_

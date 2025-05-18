@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Sergeant
+
+// Name
+Fontaine
+
+// Bio
+Sergeant Gil "Gunfighter" Fontaine^^AGE: 23   HEIGHT: 5'10"    WEIGHT: 158 lbs.^MOS: 11B4S (Special Forces Weapons)^PT SCORE: 377^Home: Seattle, Washington^^MILITARY SERVICE: 3 months in SOG, 3 missions on RT Vermont.^^AWARDS: Purple Heart; Army Commendation Medal for Valor.^^WEAPONS QUALIFICATIONS:^M-16: Expert^.45 Cal. Pistol: Expert^^BACKGROUND: Enjoys poker and other forms of gambling, practices firing his CAR-15 on his own to master it, prefers being a One-One so he can focus on fighting, not leading a team.  While assigned to the 82nd Airborne Division at Ft. Bragg, he made the division rifle team and attended the USMC Sniper School at Cherry Point, N.C.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us03
+
+// Default loadout (must be 5 items)
+XM-21
+1911A1 .45
+Frag Grenades
+Smoke Grenades
+First Aid Kit
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.52 // Blade skill
+.71 // Sidearm skill
+.77 // Small arms skill (Riflery)
+.41 // Machinegun skill
+.53 // Grenade skill
+.41 // Explosive skill
+.78 // Field craft skill (sniping)
+.51 // Toughness skill
+.63 // Infiltration skill
+.42 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+6   // Voice index, from 1 to the number of AVoices in /Sound

@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Lieutenant
+
+// Name
+Callahan
+
+// Bio
+Lieutenant Jim "Too-Tall" Callahan^^AGE: 25    HEIGHT: 6'6"   WT: 168 lbs.^MOS: Infantry Branch Officer^PT SCORE: 370^Home: Fort Wayne, Indiana^^MILITARY SERVICE: ROTC graduate, served with 10th Special Forces Group in Germany, volunteered for Vietnam and for SOG.^^AWARDS: None.^^WEAPONS QUALIFICATIONS:^M-16: Sharpshooter^.45 Cal. Pistol: Expert^^BACKGROUND: An Irish-American who played basketball at Notre Dame, due to his rank he's trying to expedite service as a One-Two and a One-One so he can lead his own recon team.  He's much taller than the Montagnards and liable to draw enemy fire — so he's dyed his blonde hair to be less conspicuous.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us18
+
+// Default loadout (must be 5 items)
+M16
+1911A1 .45
+Frag Grenades
+First Aid Kit
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.54 // Blade skill
+.72 // Sidearm skill
+.66 // Small arms skill (Riflery)
+.73 // Machinegun skill
+.61 // Grenade skill
+.56 // Explosive skill
+.47 // Field craft skill (sniping)
+.57 // Toughness skill
+.44 // Infiltration skill
+.41 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+3   // Voice index, from 1 to the number of AVoices in /Sound

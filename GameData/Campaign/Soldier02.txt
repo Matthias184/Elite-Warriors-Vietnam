@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Sergeant
+
+// Name
+Davis
+
+// Bio
+Sergeant Wade "Freefall" Davis^^AGE: 23    HEIGHT: 5'11"    WT: 163 lbs.^MOS: 11B4S (Special Forces Weapons)^PT SCORE: 377^Home: San Diego, California^^MILITARY SERVICE: Just arrived in Vietnam, volunteered for SOG.^^AWARDS: None.^^WEAPONS QUALIFICATIONS:^M-16: Sharpshooter^.45 Cal. Pistol: Marksman^^BACKGROUND: A former member of the "Golden Knights" — U.S. Army freefall parachute team — he's a superb parachutist, with almost 2000 jumps.  Already has 4 years active duty, he wants to carry his weight in SOG, eventually lead his own team.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us02
+
+// Default loadout (must be 5 items)
+CAR-15
+1911A1 .45
+Frag Grenades
+First Aid Kit
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.63 // Blade skill
+.61 // Sidearm skill
+.72 // Small arms skill (Riflery)
+.55 // Machinegun skill
+.67 // Grenade skill
+.48 // Explosive skill
+.47 // Field craft skill (sniping)
+.54 // Toughness skill
+.71 // Infiltration skill
+.42 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+3   // Voice index, from 1 to the number of AVoices in /Sound

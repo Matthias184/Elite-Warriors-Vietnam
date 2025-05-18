@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Sergeant First Class
+
+// Name
+Diaz
+
+// Bio
+Sergeant First Class Hernando "Demo" Diaz^^AGE: 31  HEIGHT: 5'11"  WT: 166 lbs.^MOS: 12B4S (Special Forces Demolitions)^PT SCORE: 353^Home: Sierra Vista, Arizona^^MILITARY SERVICE: Two prior Vietnam tours — first with the 101st Airborne Division, then with 5th Special Forces Group at Camp A-101 on the Laotian border.^^AWARDS: Bronze Star for Valor, Purple Heart.^^WEAPONS QUALIFICATIONS:^M-16: Sharpshooter^.45 Cal. Pistol: Marksman^^BACKGROUND: A happy-go-lucky sort, he's serious in the field and a truly talented demo man.  His idea of the perfect day is to see an entire enemy ammo dump blow sky-high.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us05
+
+// Default loadout (must be 5 items)
+CAR-15
+1911A1 .45
+Frag Grenades
+C4 with Timed Detonator
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.56 // Blade skill
+.62 // Sidearm skill
+.67 // Small arms skill (Riflery)
+.43 // Machinegun skill
+.66 // Grenade skill
+.74 // Explosive skill
+.52 // Field craft skill (sniping)
+.48 // Toughness skill
+.63 // Infiltration skill
+.38 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+2   // Voice index, from 1 to the number of AVoices in /Sound

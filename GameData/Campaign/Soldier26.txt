@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Specialist
+
+// Name
+Gonzales
+
+// Bio
+Specialist Five Andy "Go-Go" Gonzales^^AGE: 21  HEIGHT: 5'8"   WT: 152 lbs.^MOS: 12B4S (Special Forces Demolitions)^PT SCORE: 390^Home: Raton, New Mexico^^MILITARY SERVICE: Prior Vietnam combat tour with the Army's 9th Infantry Division.^^AWARDS: Army Commendation Medal for Valor, Purple Heart.^^WEAPONS QUALIFICATIONS:^M-16: Sharpshooter^.45 Cal. Pistol: Marksman^^BACKGROUND: In high school he set a new state record for sprinting 100 yards and 1/4 mile, hence his nickname.  Turned down an athletic scholarship to join the Army but wasn't old enough to join Special Forces until after his first Vietnam tour.  Great sense of humor and enthusiasm, matched by superb abilities to construct sophisticated demolition charges. 
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us22
+
+// Default loadout (must be 5 items)
+CAR-15
+1911A1 .45
+Frag Grenades
+First Aid Kit
+C4 with Timed Detonator
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.56 // Blade skill
+.62 // Sidearm skill
+.67 // Small arms skill (Riflery)
+.44 // Machinegun skill
+.63 // Grenade skill
+.78 // Explosive skill
+.42 // Field craft skill (sniping)
+.56 // Toughness skill
+.67 // Infiltration skill
+.38 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+2   // Voice index, from 1 to the number of AVoices in /Sound

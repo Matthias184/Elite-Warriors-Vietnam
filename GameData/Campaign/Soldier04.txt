@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Indig
+
+// Name
+WO
+
+// Bio
+WO, 19, is a Heleng tribesman, raised in a village near Kontum.  Like all Montagnards, he's a born hunter and tracker, making him a superb recon man.  Wo has prior service with the II Corps Mike Force, where he graduated from parachute school and made one combat jump.  His father was a paratrooper with the French Foreign Legion and fought at Dien Bien Phu.  Wo is possibly the finest M-79 grenadier in Recon, capable of firing up to 12 well-placed rounds per minute.  While he's willing to walk point, he lacks the experience (and confidence) to take that position permanently.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us28
+
+// Default loadout (must be 5 items)
+CAR-15
+1911A1 .45
+Frag Grenades
+C4 with Timed Detonator
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.62 // Blade skill
+.64 // Sidearm skill
+.73 // Small arms skill (Riflery)
+.42 // Machinegun skill
+.44 // Grenade skill
+.59 // Explosive skill
+.62 // Field craft skill (sniping)
+.46 // Toughness skill
+.77 // Infiltration skill
+.36 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+7   // Voice index, from 1 to the number of AVoices in /Sound

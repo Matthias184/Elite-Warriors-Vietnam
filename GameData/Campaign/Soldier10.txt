@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Staff Sergeant
+
+// Name
+Monroe
+
+// Bio
+Staff Sergeant Steve "Mississippi" Monroe^^AGE: 25   HEIGHT: 6'   WT: 177 lbs.^MOS: 11B4S (Special Forces Weapons)^PT SCORE: 373^Home: Natchez, Mississippi^^MILITARY SERVICE: Prior Vietnam tour with Project Delta, 5th Special Forces Group, where he was a recon team leader.  Just volunteered for SOG.^^AWARDS: Bronze Star for Valor.^^WEAPONS QUALIFICATIONS:^M-16: Expert^.45 Cal. Pistol: Sharpshooter^^BACKGROUND: A high school football star, he dropped out of Ol' Miss to join Special Forces and is known for his great physical strength and courage under fire.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us11
+
+// Default loadout (must be 5 items)
+M60
+1911A1 .45
+Frag Grenades
+Smoke Grenades
+First Aid Kit
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.56 // Blade skill
+.67 // Sidearm skill
+.71 // Small arms skill (Riflery)
+.72 // Machinegun skill
+.74 // Grenade skill
+.61 // Explosive skill
+.43 // Field craft skill (sniping)
+.64 // Toughness skill
+.51 // Infiltration skill
+.32 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+5   // Voice index, from 1 to the number of AVoices in /Sound

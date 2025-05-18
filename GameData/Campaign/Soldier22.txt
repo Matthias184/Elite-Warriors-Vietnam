@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Indig
+
+// Name
+PRIN
+
+// Bio
+PRIN, 22, is a Bru tribesman, raised near the Laotian border just west of Khe Sanh.  A born hunter and tracker, he's naturally a superb recon man.  Blessed with acute hearing and vision, some men claim that when Prin walks point, “it's like you've got a hunting dog up there.”  A graduate of Kontum's Catholic orphanage school, Prin speaks passable English and perfect Vietnamese with a North Vietnamese accent.  In addition to excellent shooting skills, he's one of a handful of Montagnards to graduate from SOG's demolitions school.  Despite his youth, Prin has been in Recon for three years and served on several teams.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us26
+
+// Default loadout (must be 5 items)
+CAR-15
+1911A1 .45
+Frag Grenades
+First Aid Kit
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.61 // Blade skill
+.60 // Sidearm skill
+.73 // Small arms skill (Riflery)
+.38 // Machinegun skill
+.52 // Grenade skill
+.74 // Explosive skill
+.52 // Field craft skill (sniping)
+.46 // Toughness skill
+.73 // Infiltration skill
+.32 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+7   // Voice index, from 1 to the number of AVoices in /Sound

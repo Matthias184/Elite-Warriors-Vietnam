@@ -1,0 +1,40 @@
+0,					// 0 for encrypted, 1 for not (an encryption program will modify this value so don't worry about it, leave it at 0)
+Sten,					// name of item (m16a1)
+Sten Sub-Machine Gun - Dmg: 55-75 Acc: 0.95 Range: 200 Clip: 20 ROF: 600 rpm,
+GameData/Items/Sten/icon.tga,		// filename of icon to use in equip screen
+6.5,					// weight (how much this item weighs, in pounds, not counting magazines, or how much one of this item weighs in the case of grenades)
+1.0,					// weight of one magazine
+5,					// number of magazines to give the player on startup
+0,					// type of item, 0 = primary weapon, 1 = secondary weapon, 2 = item, -1 = don't show on equip screen
+0,					// "side" of weapon, 0 = USA, 1 = Enemy, 2 = Both, note this may only be used in future game modes
+SMG,					// type of item, this can be: Melee, SingleShot, SMG, SMG-Gren, LMG, Grenade, RPG, Vehicle, TNT, Medkit, APMine, ATMine
+SMG,					// name of animation set to use
+# was killed with an Sten by @.,
+# was TEAMKILLED with an Sten by @.,
+@ killed himself with an Sten.,
+GameData/Items/Sten/Sten-drop.z3d,	// name of mesh when item dropped on the ground
+1,						// AI Adjustment multiplier.  Multiplied by the AI skill stat for the appropriate weapon class and by a difficulty modifier.  This is an extra amount to hit or miss with this particular weapon
+.95, // Implicit weapon accuracy. 1=perfect, less than one to multiply for a greater spread
+20,					// bullets in clip
+1,					// how many bullets weapon fires in one shot (mainly for shotguns with spread fire)
+0.02,					// kick amount
+10,					// max magazines a player can carry
+9000,					// max range a bullet travels
+200,					// effective range (the AI must be this close or closer before it can fire the weapon.  this number is in feet)
+180,					// sound level (used by the AI to determine how far away it can hear the weapon. this number is not the actual distance)
+0.1,					// if a rapid fire weapon, how many seconds between each shot (basically fire rate)
+-1,					// number of bullets it fires in a row in auto mode, -1 means it can empty an entire clip
+1,					// whether this weapon has secondary action or not (0 for no, 1 for yes)
+3,					// skill to use, the skills are: 0 - Blades, 1 - Sidearms, 2 - Riflery, 3 - Machineguns, 4 - Grenades,5 - Explosives
+smg,					// name of the bone to attach the object to when equipped (generally weapon bind point or hand)
+GameData/Items/Sten/Sten-hand.z3d,	// name of mesh to use in character's hand when equipped
+55,					// minimum damage
+75,					// maximum damage
+350,					// AI rating (the higher the number, the more likely the AI will target a guy with this weapon if within effective range of weapon)
+GameData/Items/Sten/Sten-smoke.par,	// particle filename for smoke coming out of muzzle after firing
+GameData/Interface/ammo.tga,		// filename for icon to use next to ammo amount
+GameData/Items/Sten/Sten-loop.wav,	// for rapid-fire weapons this is the looping sound, for single-fire this is the fire sound
+GameData/Items/Sten/Sten-end.wav,		// sound to play after the user lifts his finger from the trigger for rapid fire weapons
+GameData/Items/Sten/Sten-rld.wav,		// reload sound effect
+GameData/Items/Sten/Sten-single.wav,	// sound effect for secondary fire on weapon (if there is one)
+Sound/Weapons/rifle_draw01.wav,		// sound to play when this weapon is selected

@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Master Sergeant
+
+// Name
+McGuire
+
+// Bio
+Master Sergeant Walter "Snake Eyes" McGuire^^AGE: 37  HT: 5'11"   WT: 170 lbs.^MOS: 11F4S (Special Forces Operations/Intel)^PT SCORE: 378^Home: Missoula, Montana^^MILITARY SERVICE: A longtime Green Beret, he's done everything you can do - from hunting Che Guevara in Bolivia to serving as a liaison to the SAS in Oman and CIA duty in Laos, plus three tours in Vietnam with Special Forces.  He volunteered for SOG recon because it's the only thing he has not done.^^AWARDS: Silver Star, Bronze Star for Valor, (two awards) Army Commendation Medal for Valor, two Purple Hearts.^^WEAPONS QUALIFICATIONS:^M-16: Expert^.45 Cal. Pistol: Expert^^BACKGROUND: A no-nonsense kind of man, his eyes glare like a snake's when he's angry, but he's a solid member of any team.  A rough and tumble sort, he grew up in a Montana lumberjack family.  Has done everything in Special Forces except SOG recon - so here he is.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us13
+
+// Default loadout (must be 5 items)
+M16
+1911A1 .45
+Frag Grenades
+First Aid Kit
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.57 // Blade skill
+.73 // Sidearm skill
+.76 // Small arms skill (Riflery)
+.58 // Machinegun skill
+.54 // Grenade skill
+.36 // Explosive skill
+.62 // Field craft skill (sniping)
+.54 // Toughness skill
+.64 // Infiltration skill
+.32 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+1   // Voice index, from 1 to the number of AVoices in /Sound

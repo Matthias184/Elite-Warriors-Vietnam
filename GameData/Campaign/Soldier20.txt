@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Master Sergeant
+
+// Name
+Washington
+
+// Bio
+Master Sergeant Gene "G-Man" Washington^^AGE: 35  HEIGHT: 6'   WT: 169 lbs.^MOS: O5B4S (Special Forces Communications)^PT SCORE: 359^Home: Detroit, Michigan^^MILITARY SERVICE: Prior Vietnam tours with 25th Infantry Division, then 5th Special Forces Group, as well as six months duty during Korean War.   Has never seen combat.^^AWARDS: Service awards but no valor awards.^^WEAPONS QUALIFICATIONS:^M-16: Sharpshooter^.45 Cal. Pistol: Marksman^^BACKGROUND: A tough African-American raised in Detroit, this devoted NCO has 17 years service but no combat because he's such a fine commo supervisor.  Despite his age and relatively high rank, during this tour he's determined to carry a CAR-15 and run recon. 
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us10
+
+// Default loadout (must be 5 items)
+CAR-15
+1911A1 .45
+Frag Grenades
+First Aid Kit
+Air Strike Radio
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.62 // Blade skill
+.63 // Sidearm skill
+.66 // Small arms skill (Riflery)
+.51 // Machinegun skill
+.63 // Grenade skill
+.46 // Explosive skill
+.57 // Field craft skill (sniping)
+.61 // Toughness skill
+.56 // Infiltration skill
+.39 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+5   // Voice index, from 1 to the number of AVoices in /Sound

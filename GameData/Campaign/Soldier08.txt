@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Staff Sergeant
+
+// Name
+McCain
+
+// Bio
+Staff Sergeant Dan "True Grit" McCain^^AGE: 31  HT: 5'11"   WT: 170 lbs.^MOS: 11B4S (Special Forces Weapons)^PT SCORE: 357^Home: Mountain City, Tennessee^^MILITARY SERVICE: Two prior Vietnam tours — first with 25th Infantry Division, then with II Corps Mike Force, 5th Special Forces Group, where he led 100 Montagnards in combat.^^AWARDS: Silver Star, Bronze Star for Valor, two Purple Hearts.^^WEAPONS QUALIFICATIONS:^M-16: Expert^.45 Cal. Pistol: Expert^^BACKGROUND: Raised in a small hollow in northeast Tennessee where he learned simple values, he's sincere, dedicated, solid as a rock.  Fearless, he uses country ways to express himself, such as, "I just seen more badguys than there's quills on a porcupine."
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us06
+
+// Default loadout (must be 5 items)
+M60
+1911A1 .45
+Frag Grenades
+Smoke Grenades
+First Aid Kit
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.62 // Blade skill
+.74 // Sidearm skill
+.67 // Small arms skill (Riflery)
+.76 // Machinegun skill
+.51 // Grenade skill
+.33 // Explosive skill
+.52 // Field craft skill (sniping)
+.64 // Toughness skill
+.41 // Infiltration skill
+.43 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+1   // Voice index, from 1 to the number of AVoices in /Sound

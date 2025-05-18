@@ -1,0 +1,42 @@
+0,			// 0 for encrypted, 1 for not (an encryption program will modify this value so don't worry about it, leave it at 0)
+Air Strike Radio,			// name of item
+Air Strike Radio - calls in an air strike at the location under the cursor,
+GameData/Items/Radio/icon.tga,	// filename of icon to use in equip screen
+0.5,			// weight (how much this item weighs, in pounds, not counting magazines, or how much one of this item weighs in the case of grenades)
+0,			// weight of one magazine
+3,			// number of magazines to give the player on startup.
+2,			// type of item, 0 = primary weapon, 1 = secondary weapon, 2 = item, -1 = don't show on equip screen
+0,			// "side" of weapon, 0 = USA, 1 = Enemy, 2 = Both, note this may only be used in future game modes
+AirStrikeRadio,			// type of item, this can be: Melee, SingleShot, SMG, SMG-Gren, LMG, Grenade, RPG, Vehicle, TNT, Medkit, APMine, ATMine, AirStrikeRadio
+Knife,			// name of animation set to use
+# was killed with an Airstrike by @.,
+# was TEAMKILLED with an Airstrike by @.,
+@ killed himself with an Airstrike.,
+GameData/Items/Radio/radio-drop.z3d,	// name of mesh when item dropped on the ground
+knife,			// name of the bone to attach the object to when equipped (generally weapon bind point or hand)
+GameData/Items/Radio/radio-hand.z3d,	// name of mesh to use in character's hand when equipped
+Sound/Weapons/rifle_draw01.wav // Sound to play when item is equipped
+Gamedata/Items/Radio/airstrike01.wav // Sound to play when item is triggered
+Sound/Weapons/rifle_draw01.wav // Sound to play when item fails to trigger (airstrike in progress or out of airstrikes)
+3			// Number of explosion sounds / effects to choose from (max 3)
+Sound/expl2.wav 	// Explosion 1 sound filename (picked at random)
+Sound/expl2.wav 	// Explosion 2 sound filename (picked at random)
+Sound/expl2.wav	// Explosion 3 sound filename (picked at random)
+GameData/fx/Exp/airstrike.par	// Effect to show for explosion 1 (picked at random)
+GameData/fx/Exp/airstrike.par	// Effect to show for explosion 2 (picked at random)
+GameData/fx/Exp/airstrike.par	// Effect to show for explosion 3 (picked at random)
+GameData/Items/Radio/AirStrike/A-1Hskyraider.z3d	// Aircraft model
+.1						// Scale factor for the aircraft model
+GameData/Items/Radio/AirStrike/skyraider.wav	// Aircraft sound
+GameData/Items/Radio/AirStrike/arrow-red.z3d	// Designated target model
+.1						// Scale factor for the designated target model
+25.0			// Delay between when you trigger the item and when the aircraft starts flying in seconds
+100.0	// Aircraft altitude
+5.0			// How long the aircraft flies.  This is also how long before the explosion occurs.
+2500			// Damage of the explosion
+200			// Radius of the explosion
+200			// How far in front of you to bomb if the mouse cursor is at an invalid spot
+NAPALM			// Bomb type, either NAPALM or ROCKETS
+5			// How many bombs, maximum of 5
+0.1			// Delay between bomb hits (this is not in seconds, so just play around until it feels right)
+5			// Number of airstrikes per campaign.  This number is used in single player.  Otherwise number of magazines is used as ammo.

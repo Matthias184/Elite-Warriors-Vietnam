@@ -1,0 +1,33 @@
+explosives,			0.500,		// This stat represents how well the enemy AI can use explosives (TNT, RPGs, etc.). Range 0 - 1 (higher is better)
+
+grenades,			0.500,		// This stat represents how well the enemy AI can use grenades. Range 0 - 1 (higher is better)
+
+machineguns,			0.600,		// This stat represents how well the enemy AI can use machineguns. Range 0 - 1 (higher is better)
+
+riflery,			0.950,		// This stat represents how well the enemy AI can use non-scoped rifles. Range 0 - 1 (higher is better)
+
+sidearms,			0.900,		// This stat represents how well the enemy AI can use sidearms (pistols). Range 0 - 1 (higher is better)
+
+sniping,			1.000,		// This stat represents how well the enemy AI can use scoped rifles. Range 0 - 1 (higher is better)
+
+toughness,			0.400,		// This stat represents how much damage the enemy AI can absorb.  Range 0 - 1 (at 0 they take full damage, at 1 they take 20% less damage)
+
+allyaccadjeasy,			1.000,		// This stat adjusts all weapon accuracies for all allies for easy difficulty.  Range 0 - 1+ (0 is worst possible adjustment, 1 is no adjustment, numbers above 1 increase accuracy up to best possible.  This stat * skill level * AI accuracy adjustment (from .idf file) = 1 is best possible accuracy.
+
+allyaccadjmed,			0.900,		// This stat adjusts all weapon accuracies for all allies for medium difficulty.  Range 0 - 1+ (0 is worst possible adjustment, 1 is no adjustment, numbers above 1 increase accuracy up to best possible.  This stat * skill level * AI accuracy adjustment (from .idf file) = 1 is best possible accuracy.
+
+allyaccadjhard,			0.800,		// This stat adjusts all weapon accuracies for all allies for hard difficulty.  Range 0 - 1+ (0 is worst possible adjustment, 1 is no adjustment, numbers above 1 increase accuracy up to best possible.  This stat * skill level * AI accuracy adjustment (from .idf file) = 1 is best possible accuracy.
+
+enemyaccadjeasy,		0.800,		// This stat adjusts all weapon accuracies for all enemies for easy difficulty.  Range 0 - 1+ (0 is worst possible adjustment, 1 is no adjustment, numbers above 1 increase accuracy up to best possible.  This stat * skill level * AI accuracy adjustment (from .idf file) = 1 is best possible accuracy.
+
+enemyaccadjmed,			0.900,		// This stat adjusts all weapon accuracies for all enemies for medium difficulty.  Range 0 - 1+ (0 is worst possible adjustment, 1 is no adjustment, numbers above 1 increase accuracy up to best possible.  This stat * skill level * AI accuracy adjustment (from .idf file) = 1 is best possible accuracy.
+
+enemyaccadjhard,		1.000,		// This stat adjusts all weapon accuracies for all enemies for hard difficulty.  Range 0 - 1+ (0 is worst possible adjustment, 1 is no adjustment, numbers above 1 increase accuracy up to best possible.  This stat * skill level * AI accuracy adjustment (from .idf file) = 1 is best possible accuracy.
+
+newpathdist,			16.000,		// This stat tells AI squad members how far the squad leader can move before they need to generate a new path in order to follow him.  The value is in feet.  Range 0 - width of map (lower means tighter following but it's slower)
+
+maxrecogdistday,		250.000,	// This stat is the maxiumum distance in feet the AI can recognize another AI or player who is standing on a day map.  Range 0 - max view dist (max view dist is stored in the AI senses files and could be different for each AI.  In that case the one with the largest value should be considered the max)
+
+maxrecogdistdawnduskovercast,	200.000,	// This stat is the maxiumum distance in feet the AI can recognize another AI or player who is standing on a dusk, dawn, or overcast (day weather) map.  Range 0 - max view dist (max view dist is stored in the AI senses files and could be different for each AI.  In that case the one with the largest value should be considered the max)
+
+maxrecogdistnight,		170.000,	// This stat is the maxiumum distance in feet the AI can recognize another AI or player who is standing on a night or night weather map.  Range 0 - max view dist (max view dist is stored in the AI senses files and could be different for each AI.  In that case the one with the largest value should be considered the max)

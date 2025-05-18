@@ -1,0 +1,25 @@
+0,			// 0 for encrypted, 1 for not (an encryption program will modify this value so don't worry about it, leave it at 0)
+ClaymoreMine,		// name of item
+Claymore Mine - a remotely detonated mine with a front-facing 60-degree blast arc,
+GameData/Items/ClaymoreMine/icon.tga,	// filename of icon to use in equip screen
+3.5,			// weight (how much this item weighs, in pounds, not counting magazines, or how much one of this item weighs in the case of grenades)
+0,			// weight of one magazine (guessing, no info available, loaded(?) weight was 2.2)
+1,			// number of magazines to give the player on startup
+2,			// type of item, 0 = primary weapon, 1 = secondary weapon, 2 = item, -1 = don't show on equip screen
+2,			// "side" of weapon, 0 = USA, 1 = Enemy, 2 = Both, note this may only be used in future game modes
+RemotelyDetonatedExplosive,	// type of item, this can be: Melee, SingleShot, SMG, SMG-Gren, LMG, Grenade, RPG, Vehicle, TNT, Medkit, APMine, ATMine, RemotelyDetonatedExplosive
+Knife,		// name of animation set to use
+# was killed with a claymore mine by @.,
+# was TEAMKILLED with a claymore mine by @.,
+@ killed himself with a claymore mine.,
+GameData/Items/ClaymoreMine/claymoremine-drop.z3d,	// name of mesh when item dropped on the ground
+3			// Number of explosion sounds to choose from (max 3)
+GameData/Items/ClaymoreMine/Explosion01.wav // Explosion sound filename
+GameData/Items/ClaymoreMine/Explosion02.wav // Explosion sound filename
+GameData/Items/ClaymoreMine/Explosion03.wav // Explosion sound filename
+400,			// minimum damage
+600,			// maximum damage
+100,			// Maximum explosive radius, in feet.  Scales linearly with explosives skill
+.5235, 			// Directional explosive cone radius, in radians, or 0 for undirected blast
+Sound/cricketamb01.wav,	// Place sound filename
+GameData/Items/ClaymoreMine/explode.par,	// filename of par file to use when exploding

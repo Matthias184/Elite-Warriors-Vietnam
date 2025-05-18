@@ -1,0 +1,17 @@
+0,			// 0 for encrypted, 1 for not (an encryption program will modify this value so don't worry about it, leave it at 0)
+First Aid Kit,		// name of item
+First Aid Kit - recovers the user's (or person under cursor's) health,
+GameData/Items/FirstAid/icon.tga,	// filename of icon to use in equip screen
+1.5,			// weight (how much this item weighs, in pounds, not counting magazines, or how much one of this item weighs in the case of grenades)
+0,			// weight of one magazine
+-1,			// number of magazines to give the player on startup
+2,			// type of item, 0 = primary weapon, 1 = secondary weapon, 2 = item, -1 = don't show on equip screen
+2,			// "side" of weapon, 0 = USA, 1 = Enemy, 2 = Both, note this may only be used in future game modes
+FirstAid,		// item type
+Knife,			// doesn't matter for this item
+-,
+-,
+-,
+GameData/Items/FirstAid/FirstAid.Z3D,	// mesh to use when dropped
+70,			// amount of life added when used
+GameData/Items/FirstAid/FirstAid.wav,	// filename of wav to play when used

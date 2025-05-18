@@ -1,0 +1,3 @@
+a-idl_noaim_02.gr2 1.0 1
+a-idl_noaim_03.gr2 1.0 1
+a-idl_noaim_04.gr2 1.0 1

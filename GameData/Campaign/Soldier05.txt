@@ -1,0 +1,35 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Sergeant
+
+// Name
+Chen
+
+// Bio
+Sergeant Nicholas "Nick" Chen^^AGE: 22   HEIGHT: 5'9"   WT: 157 lbs.^MOS: 11B4S (Special Forces Weapons)^PT SCORE: 374^Home: San Francisco, California^^MILITARY SERVICE: On his first Vietnam tour, already has three missions with RT Nevada.^^AWARDS: Purple Heart.^^WEAPONS QUALIFICATIONS:^M-16: Expert^.45 Cal. Pistol: Expert^^BACKGROUND: A Chinese-American, he loves wearing NVA uniforms and can eliminate trackers silently with his suppressed Sten gun.  Speaks fluent Vietnamese.
+
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us08
+
+// Default loadout (must be 5 items)
+Sten
+1911A1 .45
+Frag Grenades
+First Aid Kit
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.62 // Blade skill
+.71 // Sidearm skill
+.76 // Small arms skill (Riflery)
+.32 // Machinegun skill
+.51 // Grenade skill
+.44 // Explosive skill
+.62 // Field craft skill (sniping)
+.51 // Toughness skill
+.78 // Infiltration skill
+.42 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+6   // Voice index, from 1 to the number of AVoices in /Sound

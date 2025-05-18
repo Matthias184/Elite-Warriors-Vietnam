@@ -1,0 +1,15 @@
+c-idl_02.gr2 1
+c-idl_03.gr2 1
+c-idl_04.gr2 1
+crouch-lay_01.gr2 1
+crouch-stand_01.gr2 1
+lay-crouch_01.gr2 1
+lay-stand_01.gr2 1
+L-reload_01.gr2 1
+S-idl_02.gr2 1
+S-idl_03.gr2 1
+S-idl_04.gr2 1
+s-idl_05.gr2 1
+s-reload_01.gr2 1
+stand-crouch_01.gr2 1
+stand-lay_01.gr2 1

@@ -1,0 +1,34 @@
+{
+    "buildId": "53164688774933996",
+    "clientId": "53107054811360968",
+    "gameId": "1663498890",
+    "language": "English",
+    "languages": [
+        "en-US"
+    ],
+    "name": "Elite Warriors Vietnam",
+    "playTasks": [
+        {
+            "category": "game",
+            "compatibilityFlags": "XPSP3",
+            "isPrimary": true,
+            "languages": [
+                "*"
+            ],
+            "name": "Elite Warriors Vietnam",
+            "path": "SOG.exe",
+            "type": "FileTask"
+        },
+        {
+            "category": "document",
+            "languages": [
+                "*"
+            ],
+            "link": "http://www.gog.com/support/elite_warriors_vietnam",
+            "name": "Support",
+            "type": "URLTask"
+        }
+    ],
+    "rootGameId": "1663498890",
+    "version": 1
+}

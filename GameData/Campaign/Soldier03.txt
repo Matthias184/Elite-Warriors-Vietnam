@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Indig
+
+// Name
+ANGAO
+
+// Bio
+ANGAO, 26, is a Rhade tribesman, raised in a remote Central Highlands village.  Like all Montagnards, he's a born hunter and tracker, making him a superb recon man.  He has prior service at the Special Forces camp at Polei Kleng, and served on a SOG Hatchet Force company before being recruited for Recon.  He's an excellent point man, as well as a fine shot with the CAR-15 and AK, although he's not proficient with the M-79 grenade launcher.  He's been wounded twice, once with minor RPG frag wounds, then a serious thigh wound by AK slug.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us25
+
+// Default loadout (must be 5 items)
+CAR-15
+1911A1 .45
+Frag Grenades
+Frag Grenades
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.76 // Blade skill
+.67 // Sidearm skill
+.72 // Small arms skill (Riflery)
+.41 // Machinegun skill
+.46 // Grenade skill
+.38 // Explosive skill
+.63 // Field craft skill (sniping)
+.50 // Toughness skill
+.79 // Infiltration skill
+.42 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+7   // Voice index, from 1 to the number of AVoices in /Sound

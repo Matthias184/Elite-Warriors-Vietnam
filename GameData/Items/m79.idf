@@ -1,0 +1,47 @@
+0,					// 0 for encrypted, 1 for not (an encryption program will modify this value so don't worry about it, leave it at 0)
+M79,					// name of item
+M79 Grenade Launcher - launches a 40mm grenade that explodes on impact,
+GameData/Items/M79/icon.tga,		// filename of icon to use in equip screen
+6.0,					// weight (how much this item weighs, in pounds, not counting magazines, or how much one of this item weighs in the case of grenades)
+0.5,					// weight of one magazine
+5,					// number of magazines to give the player on startup
+0,					// type of item, 0 = primary weapon, 1 = secondary weapon, 2 = item, -1 = don't show on equip screen
+0,					// "side" of weapon, 0 = USA, 1 = Enemy, 2 = Both, note this may only be used in future game modes
+RPG,					// type of item, this can be: Melee, SingleShot, SMG, SMG-Gren, LMG, Grenade, M79, Vehicle, TNT, Medkit, APMine, ATMine
+m79,					// name of animation set to use
+# was killed with an M79 by @.,
+# was TEAMKILLED with an M79 by @.,
+@ killed himself with an M79.,
+GameData/Items/M79/M79-drop.z3d,	// name of mesh when item dropped on the ground
+1,						// AI Adjustment multiplier.  Multiplied by the AI skill stat for the appropriate weapon class and by a difficulty modifier.  This is an extra amount to hit or miss with this particular weapon
+.95, // Implicit weapon accuracy. 1=perfect, less than one to multiply for a greater spread
+1,					// bullets in clip
+1,					// how many bullets weapon fires in one shot (mainly for shotguns with spread fire)
+0.05,					// kick amount
+5,					// max magazines a player can carry
+9000,					// max range a bullet travels
+200,					// effective range (the AI must be this close or closer before it can fire the weapon.  this number is in feet)
+120,					// sound level (used by the AI to determine how far away it can hear the weapon. this number is not the actual distance)
+0.1,					// if a rapid fire weapon, how many seconds between each shot (basically fire rate)
+-1,					// number of bullets it fires in a row in auto mode, -1 means it can empty an entire clip
+0,					// whether this weapon has secondary action or not (0 for no, 1 for yes)
+5,					// skill to use, the skills are: 0 - Blades, 1 - Sidearms, 2 - Riflery, 3 - Machineguns, 4 - Grenades,5 - Explosives
+m79,					// name of the bone to attach the object to when equipped (generally weapon bind point or hand)
+GameData/Items/M79/M79-hand.z3d,	// name of mesh to use in character's hand when equipped
+800,					// minimum damage
+1000,					// maximum damage
+600,					// AI rating (the higher the number, the more likely the AI will target a guy with this weapon if within effective range of weapon)
+GameData/Items/M79/smoke.par,		// particle filename for smoke coming out of muzzle after firing
+GameData/Items/M79/ammo.tga,		// filename for icon to use next to ammo amount
+GameData/Items/M79/M79-fire.wav,	// for rapid-fire weapons this is the looping sound, for single-fire this is the fire sound
+N/A,
+N/A,
+N/A,
+Sound/Weapons/rifle_draw01.wav,		// sound to play when this weapon is selected
+GameData/Items/M79/M79_shell.z3d,		// name of z3d to use for when the rocket is in the air
+1,					// whether this fires rockets (0) or grenades (1)
+0,					// X location of back blast, set all 3 of these to 0 for no back blast
+0,					// Y location of back blast
+0,					// Z location of back blast
+N/A,					// filename of .par file to use for backblast, ignored if no backblast
+GameData/Items/M79/reticle.tga,		// custom reticle, or N/A to use default

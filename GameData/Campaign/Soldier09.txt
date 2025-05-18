@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Specialist
+
+// Name
+Running Deer
+
+// Bio
+Specialist Four Danny Running Deer^^AGE: 20  HT: 5'9"   WT: 160 lbs.^MOS: 11B4S (Special Forces Weapons)^PT SCORE: 367^Home: Tower, Minnesota^^MILITARY SERVICE: Just arrived in Vietnam, accepted for SOG recon duty.^^AWARDS: None^^WEAPONS QUALIFICATIONS:^M-16: Expert^.45 Cal. Pistol: Expert^^BACKGROUND: A Native American Ojibway, he was raised in the northwoods of Minnesota near the Canadian border.  A great tracker, as adept in the jungle as the Montagnards, he's quiet, with an ironic sense of humor.  During WWII, his father served on the 1st Special Service Force, or, "Devil's Brigade."
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us23
+
+// Default loadout (must be 5 items)
+CAR-15
+1911A1 .45
+Frag Grenades
+First Aid Kit
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.74 // Blade skill
+.71 // Sidearm skill
+.73 // Small arms skill (Riflery)
+.41 // Machinegun skill
+.57 // Grenade skill
+.41 // Explosive skill
+.43 // Field craft skill (sniping)
+.54 // Toughness skill
+.78 // Infiltration skill
+.42 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+6   // Voice index, from 1 to the number of AVoices in /Sound

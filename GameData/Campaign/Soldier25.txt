@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Indig
+
+// Name
+BO
+
+// Bio
+BO, 20, a Bru tribesman, was SOG's first 'Yard to graduate from HALO (military skydiving) school, as well as the first to complete SOG's basic medic course.   He speaks excellent English.  Bo served six months with Project Delta, the 5th Special Forces Group's Long Range Recon unit, before joining SOG.  He loves his CAR-15 and any kind of suppressed weapon and only grudgingly will carry an M-79.   The least experienced man on your team, Bo displays enthusiasm but needs time to mature. 
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us27
+
+// Default loadout (must be 5 items)
+CAR-15
+1911A1 .45
+Frag Grenades
+First Aid Kit
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.65 // Blade skill
+.62 // Sidearm skill
+.72 // Small arms skill (Riflery)
+.57 // Machinegun skill
+.40 // Grenade skill
+.52 // Explosive skill
+.63 // Field craft skill (sniping)
+.45 // Toughness skill
+.66 // Infiltration skill
+.60 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+7   // Voice index, from 1 to the number of AVoices in /Sound

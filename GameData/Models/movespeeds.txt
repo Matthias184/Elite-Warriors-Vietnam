@@ -1,0 +1,24 @@
+0.5 0.5 21 strafeleftrun
+0.4 0.1 7 strafeleftwalk
+0.35 0.35 18 crouchstrafeleftrun
+0.65 0.3 7  crouchstrafeleftwalk 
+0.5 0.5 22 straferightrun
+0.4 0.1 7 straferightwalk
+0.45 0.45 18 crouchstraferightrun
+0.55 0.5 7 crouchstraferightwalk 
+0.5 0.5 21 run
+0.5 0.5 8 walk
+0.5 0.5 8 alertwalk
+0.3 0.3 14 Crouch run
+1.6 1.6 5.5 Crouchwalk
+0.5 0.5 9 lay roll left
+0.5 0.5 9 lay roll right
+0.5 0.5 7 StandWalkBack
+1.6 1.6 3.2 CrouchWalkBack
+1.6 1.6 3.5 LayCrawl
+2.0 2.0 8 LayRun
+1.6 1.6 3.2 LayCrawlBack
+0.65 0.3 6 LayStrafeLeft
+0.65 0.3 6 LayStrafeRight
+0.5 0.5 15 swim
+0.4 0.1 12 swim strafe

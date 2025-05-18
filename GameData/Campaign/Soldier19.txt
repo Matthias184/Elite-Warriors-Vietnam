@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Staff Sergeant
+
+// Name
+McGinnis
+
+// Bio
+Staff Sergeant Hal "Big Boy" McGinnis^^AGE: 24  HEIGHT: 6'5"  WT: 211 lbs.^MOS: 11B4S (Special Forces Weapons)^PT SCORE: 381^Home: Portland, Maine^^MILITARY SERVICE: Prior Vietnam tour with 1st Air Cavalry Division.^^AWARDS: Army Commendation Medal for Valor, Purple Heart.^^WEAPONS QUALIFICATIONS:^M-16: Sharpshooter^.45 Cal. Pistol: Marksman^^BACKGROUND: A big and powerful man, he's a bit noisy in thick jungle but can wield machine guns fabulously, and can run while carrying a prisoner or wounded teammate.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us14
+
+// Default loadout (must be 5 items)
+M60
+1911A1 .45
+Frag Grenades
+Frag Grenades
+First Aid Kit
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.65 // Blade skill
+.64 // Sidearm skill
+.69 // Small arms skill (Riflery)
+.87 // Machinegun skill
+.64 // Grenade skill
+.56 // Explosive skill
+.45 // Field craft skill (sniping)
+.68 // Toughness skill
+.33 // Infiltration skill
+.41 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+1   // Voice index, from 1 to the number of AVoices in /Sound

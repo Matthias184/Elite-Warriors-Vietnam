@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Indig
+
+// Name
+PHIT
+
+// Bio
+PHIT, 21, is a Rhade tribesman, raised near SOG's launch site at Dak To.   A natural Recon man, he hunted and trapped animals in his youth.  Phit possesses uncanny night vision, the best of anyone in Recon, along with an excellent sense of smell - he can smell a Vietnamese Ruby Queen cigarette at 100 meters!  Phit began his military service at the Dak To Special Forces camp, where he was a CIDG (Civilian Irregular Defense Group) squad leader.  Recruited by SOG two years ago, he's served solely in Recon and thinks he's ready to walk point.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us30
+
+// Default loadout (must be 5 items)
+XM-21
+1911A1 .45
+Frag Grenades
+First Aid Kit
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.61 // Blade skill
+.63 // Sidearm skill
+.66 // Small arms skill (Riflery)
+.44 // Machinegun skill
+.56 // Grenade skill
+.41 // Explosive skill
+.73 // Field craft skill (sniping)
+.52 // Toughness skill
+.80 // Infiltration skill
+.43 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+7   // Voice index, from 1 to the number of AVoices in /Sound

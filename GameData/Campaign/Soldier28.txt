@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Sergeant First Class
+
+// Name
+Jourdain
+
+// Bio
+Sergeant First Class Andre "Canuck" Jourdain^^AGE: 28  HT: 5'10"   WT: 153 lbs.^MOS: 11B4S (Special Forces Weapons)^PT SCORE: 367^Home: Mont-Lauren, Quebec, Canada^^MILITARY SERVICE: Two previous Vietnam tours, both with 101st Airborne Division, as an Airborne-Infantryman.  (Earlier service with Canadian Army in Princess Patricia's Canadian Light Infantry.)  Just arrived at SOG, no experience in recon.^^AWARDS: Bronze Star for Valor, Army Commendation Medal for Valor, two Purple Hearts.^^WEAPONS QUALIFICATIONS:^M-16: Expert^.45 Cal. Pistol: Expert^^BACKGROUND: A French-Canadian, he's a descendent of fur traders who canoed into the Canadian wilderness, called voyageurs.  Excellent in the woods, a bit more formal than most recon men due to his previous Canadian military service.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us21
+
+// Default loadout (must be 5 items)
+XM-21
+1911A1 .45
+Frag Grenades
+Smoke Grenades
+First Aid Kit
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.66 // Blade skill
+.71 // Sidearm skill
+.74 // Small arms skill (Riflery)
+.42 // Machinegun skill
+.48 // Grenade skill
+.35 // Explosive skill
+.67 // Field craft skill (sniping)
+.58 // Toughness skill
+.69 // Infiltration skill
+.42 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+3   // Voice index, from 1 to the number of AVoices in /Sound

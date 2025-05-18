@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Indig
+
+// Name
+JEN
+
+// Bio
+JEN, 33, is the "old man": the oldest 'Yard in Recon.  His Rhade village near Dak Pek was destroyed by the Communists in 1963, inspiring him to volunteer as a CIA "Mountain Scout" who ran one-man, walk-in missions into Laos, 1963-4.  When SOG Recon was founded one year later, Jen was one of the first to join and since then has served on nine different teams, in all positions.  He's a master of every SOG weapon.  His only downside is that he sometimes thinks he knows more than his Special Forces team leader - which occasionally may be true.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us29
+
+// Default loadout (must be 5 items)
+M16
+1911A1 .45
+Frag Grenades
+First Aid Kit
+Binoculars
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.63 // Blade skill
+.64 // Sidearm skill
+.72 // Small arms skill (Riflery)
+.71 // Machinegun skill
+.61 // Grenade skill
+.52 // Explosive skill
+.64 // Field craft skill (sniping)
+.43 // Toughness skill
+.74 // Infiltration skill
+.22 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+7   // Voice index, from 1 to the number of AVoices in /Sound

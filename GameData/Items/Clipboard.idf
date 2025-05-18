@@ -1,0 +1,18 @@
+0,			// 0 for encrypted, 1 for not (an encryption program will modify this value so don't worry about it, leave it at 0)
+Clipboard,		// name of item
+Clipboard,
+GameData/Items/Clipboard/icon.tga,	// filename of icon to use in equip screen
+0,			// weight (how much this item weighs, in pounds, not counting magazines, or how much one of this item weighs in the case of grenades)
+0,			// weight of one magazine
+-1,			// number of magazines to give the player on startup
+-1,			// type of item, 0 = primary weapon, 1 = secondary weapon, 2 = item, -1 = don't show on equip screen
+2,			// "side" of weapon, 0 = USA, 1 = Enemy, 2 = Both, note this may only be used in future game modes
+Clipboard,		// item type
+Knife,			// doesn't matter for this item
+-,
+-,
+-,
+GameData/Items/Clipboard/Clipboard_obj.Z3D,	// mesh to use when dropped
+GameData/Items/Binocs/overlay.tga,		// overlay to use, put - for none
+39,			// field of view in feet at min zoom at 100 yards (3X is around 39)
+13,			// field of view in feet at max zoom at 100 yards (9X is around 13)

@@ -1,0 +1,34 @@
+// Rank, or "Indig" for an indiginous soldier (no rank)
+Sergeant First Class
+
+// Name
+Gillis
+
+// Bio
+Sergeant First Class Frank "Raving Mad" Gillis^^AGE: 30  HT: 5'11"   WT: 161 lbs.^MOS: 11B4S (Special Forces Weapons)^PT SCORE: 369^Home: Rocky Mount, North Carolina^^MILITARY SERVICE: Now finishing his third year in SOG, all of it running recon on seven different teams, accumulating some 28 missions, thought to be a SOG record.^^AWARDS: Silver Star, Bronze Star for Valor, Army Commendation Medal for Valor, Soldiers Medal (for rescuing a man from a burning helicopter), three Purple Hearts.^^WEAPONS QUALIFICATIONS:^M-16: Expert^.45 Cal. Pistol: Expert^^BACKGROUND: "I've got recon in my blood," Gillis often says.  Several times he's been a One-Zero, but prefers to be a One-One, "So I can focus on fighting, not leading."  He likes to carry extra ammo because he ran out - once.  Speaks several Montagnard dialects fluently.
+
+// Model name (must fit the path GameData/Models/*_lod1.gr2)
+us20
+
+// Default loadout (must be 5 items)
+M16
+1911A1 .45
+Frag Grenades
+Frag Grenades
+First Aid Kit
+
+// All skills range from 0.0 (incompetent) to 1.0 (flawless)
+.64 // Blade skill
+.71 // Sidearm skill
+.74 // Small arms skill (Riflery)
+.51 // Machinegun skill
+.54 // Grenade skill
+.38 // Explosive skill
+.62 // Field craft skill (sniping)
+.53 // Toughness skill
+.64 // Infiltration skill
+.41 // Medicine skill
+
+5.0 // Starting morale.  Ranges from 0 to 10 with 5 as average.
+100 // Starting health.  Ranges from >0 to 100.
+3   // Voice index, from 1 to the number of AVoices in /Sound
